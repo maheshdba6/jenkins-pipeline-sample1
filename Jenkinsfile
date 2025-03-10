@@ -2,12 +2,12 @@ pipeline {
     agent any
     stages {
         stage ('Build') {
-            Steps{
+            steps{
                 echo "Build New Application"
             }
         }
-        Stage ('Main') {
-            Steps{
+        stage ('Main') {
+            steps{
                 echo "I am adding 2 int"
             }
         }
